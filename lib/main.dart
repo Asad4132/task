@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:task/login/view/LoginPage.dart';
+import 'package:task/test2/NewEventPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       title: 'Material App',
-      home: LoginScreen(),
+      home: NewEventPage(),
     );
   }
 }
